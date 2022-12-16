@@ -12,7 +12,6 @@ export default class Application extends EventEmitter {
     super();
 		
 		this._loading = document.querySelector('.progress')
-		console.log(this._loading)
 
     //const box = document.createElement("div");
     //box.classList.add("box");

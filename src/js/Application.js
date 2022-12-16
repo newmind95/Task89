@@ -57,11 +57,11 @@ export default class Application extends EventEmitter {
 	}
 
   _startLoading() {
-    this._loading.style.visibility = 'visible'
+    this._loading.style.visibility = 'block'
   }
 
   _stopLoading() {
-    this._loading.style.visibility = 'hidden'
+    this._loading.style.display = 'none'
   }
 
   _render({ name, terrain, population }) {
